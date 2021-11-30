@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>pagina web</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+<body>
+    <header class="seccion">
+        <div class="logo">
+            <a href="index.html">
+                <img class="Mipresentacion" src="ImagenesWeb/Efecto.png">
+                <img class="Efecto" src="ImagenesWeb/Mipresentacion.png">
+            </a>
+        </div>
+        <nav>
+            <div class="columna1">
+                <div class="title">
+                    <h3>Cristhian Quiroz</h3>
+                    <i>Estudiante</i>
+                </div>
+                <br><br><br>
+
+                <ul class="menu">
+                    <li>
+                        <a class="enlace" href="pagina.html">Educación</a>
+                    </li>
+                    <li>
+                        <a class="enlace" href="pagina.html">Hobies</a>
+                    </li>
+                    <li>
+                        <a class="enlace" href="pagina.html">Experiencia laboral</a>
+                    </li>
+                    <li>
+                        <a class="enlace" href="#Peliculas">Trabajos</a>
+                    </li>
+                    <li>
+                        <a class="enlace" href="pagina.html">Tiempo libre</a>
+                    </li>
+                </ul>
+                <br><br><br><br><br><br>
+                <div class="redes">
+                    <table align="center">
+                        <tr>
+                            <td class="tl"><img class="rede" src="ImagenesWeb/facebook.png"></td>
+                            <td class="tl"><img class="rede" src="ImagenesWeb/twitter.png"></td>
+                            <td class="tl"><img class="rede" src="ImagenesWeb/Likeding.png"></td>
+                            <td class="tl"><img class="rede" src="ImagenesWeb/wifi.png"></td>
+                        </tr>
+                    </table>
+
+                </div>
+
+        </nav>
+    </header>
+
+    <div class="peliculas">
+        <div class="cont1">
+            <h1>Trabajos</h1>
+            <hr class="line">
+            <p>Les presento algunos servicios que he realizado a mis clientes y el precio.
+            </p>
+
+            <img class="Agregar" src="ImagenesWeb/Agregar.png">
+            <img class="Eliminar" src="ImagenesWeb/Eliminar.png">
+        </div>
+        <div class="cont2">
+            <table id="tablepeli">
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            Nombre
+                        </th>
+                        <th>
+                            Costo
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr onmouseover="visible()">
+                        <td>1</td>
+                        <td>Formateo</td>
+                        <td>250</td>
+                    </tr>
+                    <tr onmouseover="visible2()">
+                        <td>2</td>
+                        <td>Mantenimiento Limpieza</td>
+                        <td>400</td>
+                    </tr>
+                    <tr onmouseover="visible3()">
+                        <td>3</td>
+                        <td>Formateo Limpieza</td>
+                        <td>800</td>
+                    </tr>
+                    <tr onmouseover="visible4()">
+                        <td>4</td>
+                        <td>Diseño de Lonas</td>
+                        <td> 300</td>
+                    </tr>
+                    <tr onmouseover="visible5()">
+                        <td>5</td>
+                        <td>Formateo de macbook</td>
+                        <td>4000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="cont3">
+            <div class="almacenamiento">
+                <img src="ImagenesWeb/formateo.jpg" class="propiedadesimg">
+                <img src="ImagenesWeb/mante.jpg" class="propiedadesimg2">
+                <img src="ImagenesWeb/mantenimiento.jpg" class="propiedadesimg3">
+                <img src="ImagenesWeb/lonas.jpg" class="propiedadesimg4">
+                <img src="ImagenesWeb/macbook.jpg" class="propiedadesimg5">
+            </div>
+            <div class="texto">
+                <p class="titulos"></p>
+                <p class="titulos"></p>
+                <p class="titulos"></p>
+                <p class="titulos"></p>
+                <p class="titulos"></p>
+            </div>
+        </div>
+    </div>
+    <script src="comportamientos.js"></script>
+</body>
+
+</html>
